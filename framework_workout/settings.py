@@ -42,10 +42,7 @@ INSTALLED_APPS = (
 )
 
 REST_FRAMEWORK = {
-    'DEFAULT_PERMISSION_CLASSES': [
-        #'rest_framework.permissions.IsAdminUser'
-    ],
-    'PAZE_SIZE': 10
+    'PAGE_SIZE': 1
 }
 
 MIDDLEWARE_CLASSES = (
